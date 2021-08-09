@@ -164,8 +164,48 @@ while is_running:
                                     "AMD Ryzen 5 2600",
                                     "AMD Ryzen 3 2200",
                                     "AMD Ryzen 3 2200G",
-                                    "",
+                                    "AMD FX 8350",
                                     "Retour"
                                 ]
                             }
                         reponse = prompt(QUESTION7).get('command')
+
+                if reponse == "Carte Mere":
+
+                    QUESTION8 = {
+                            "type": "list",  # Ne pas retirer
+                            "name": "command",  # Ne pas retirer
+                            "message": "Choisissez une action",  # Question
+
+                                # Choix
+                                "choices": [
+                                    "ASUS",
+                                    "ASROCK",
+                                    "Biostar,"
+                                    "Colorful",
+                                    "EVGA",
+                                    "Gigabyte",
+                                    "Intel Desktop Board",
+                                    "MSI",
+                                    "NZXT",
+                                    "Sapphire",
+                                    "XFX",
+                                    "Retour"
+                                ]
+                            }
+                    reponse = prompt(QUESTION8).get('command')
+
+                if reponse == "RAM":
+                    QUESTION9 = {
+                        "type": "list",  # Ne pas retirer
+                        "name": "command",  # Ne pas retirer
+                        "message": "Choisissez une action",  # Question
+
+                        # Choix
+                        "choices": [
+                            "Corsair",
+                            "GSkill",
+                            "Retour"
+                        ]
+                    }
+                    reponse = prompt(QUESTION9).get('command')
