@@ -203,8 +203,14 @@ while is_running:
 
                         # Choix
                         "choices": [
+                            "Aorus",
+                            "Balistix",
                             "Corsair",
+                            "Crucial",
+                            "Gigabyte",
                             "GSkill",
+                            "HyperX",
+                            "Viper",
                             "Retour"
                         ]
                     }
