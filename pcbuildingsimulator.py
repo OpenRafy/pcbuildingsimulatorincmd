@@ -215,3 +215,57 @@ while is_running:
                         ]
                     }
                     reponse = prompt(QUESTION9).get('command')
+                if reponse == "GPU":
+                    QUESTION10 = {
+                        "type": "list",  # Ne pas retirer
+                        "name": "command",  # Ne pas retirer
+                        "message": "Choisissez une action",  # Question
+
+                        # Choix
+                        "choices": [
+                            "AMD",
+                            "Nvidia",
+                            "Retour"
+                        ]
+                    }
+                    reponse = prompt(QUESTION10).get('command')
+                    if reponse == "AMD":
+                        QUESTION11 = {
+                            "type": "list",  # Ne pas retirer
+                            "name": "command",  # Ne pas retirer
+                            "message": "Choisissez une action",  # Question
+
+                            # Choix
+                            "choices": [
+                                "AMD Radeon RX 6900XT",
+                                "Asus Strix Radeon RX 6900XT",
+                                "Gigabyte Radeon RX 6900XT",
+                                "Aorus Radeon RX 6900XT",
+                                "MSI Radeon RX 6900XT",
+                                "Sapphire Radeon RX 6900XT",
+                                "XFX Radeon RX 6900XT",
+                                "AMD Radeon RX 6800XT",
+                                "Asus Strix Radeon RX 6800XT",
+                                "Gigabyte Radeon RX 6800XT",
+                                "Aorus Radeon RX 6800XT",
+                                "MSI Radeon RX 6800XT",
+                                "Sapphire Radeon RX 6800XT",
+                                "XFX Radeon RX 6800XT",
+                                "AMD Radeon RX 6700XT",
+                                "Asus Strix Radeon RX 6700XT",
+                                "Gigabyte Radeon RX 6700XT",
+                                "Aorus Radeon RX 6700XT",
+                                "MSI Radeon RX 6700XT",
+                                "Sapphire Radeon RX 6700XT",
+                                "XFX Radeon RX 6700XT",
+                                "AMD Radeon RX 5700XT",
+                                "Asus Strix Radeon RX 5700XT",
+                                "Gigabyte Radeon RX 5700XT",
+                                "Aorus Radeon RX 5700XT",
+                                "MSI Radeon RX 5700XT",
+                                "Sapphire Radeon RX 5700XT",
+                                "XFX Radeon RX 5700XT",
+                                "Retour"
+                            ]
+                        }
+                        reponse = prompt(QUESTION11).get('command')
