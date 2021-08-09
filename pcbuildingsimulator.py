@@ -136,6 +136,8 @@ while is_running:
                                 "Retour"
                             ]
                         }
+                        reponse = prompt(QUESTION6).get('command')
+
                     if reponse == "AMD":
                         QUESTION7 = {
                             "type": "list",  # Ne pas retirer
@@ -166,3 +168,4 @@ while is_running:
                                     "Retour"
                                 ]
                             }
+                        reponse = prompt(QUESTION7).get('command')
