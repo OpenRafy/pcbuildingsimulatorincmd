@@ -265,6 +265,13 @@ while is_running:
                                 "MSI Radeon RX 5700XT",
                                 "Sapphire Radeon RX 5700XT",
                                 "XFX Radeon RX 5700XT",
+                                "AMD Radeon RX 5600XT",
+                                "Asus Strix Radeon RX 5600XT",
+                                "Gigabyte Radeon RX 5600XT",
+                                "Aorus Radeon RX 5600XT",
+                                "MSI Radeon RX 5600XT",
+                                "Sapphire Radeon RX 5600XT",
+                                "XFX Radeon RX 5600XT",
                                 "Retour"
                             ]
                         }
