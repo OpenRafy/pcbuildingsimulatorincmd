@@ -272,7 +272,69 @@ while is_running:
                                 "MSI Radeon RX 5600XT",
                                 "Sapphire Radeon RX 5600XT",
                                 "XFX Radeon RX 5600XT",
+                                "AMD Radeon RX 5500XT",
+                                "Asus Strix Radeon RX 5500XT",
+                                "Gigabyte Radeon RX 5500XT",
+                                "Aorus Radeon RX 5500XT",
+                                "MSI Radeon RX 5500XT",
+                                "Sapphire Radeon RX 5500XT",
+                                "AMD Radeon RX 590",
+                                "Asus Strix Radeon RX 590",
+                                "Gigabyte Radeon RX 590",
+                                "Aorus Radeon RX 590",
+                                "MSI Radeon RX 590",
+                                "Sapphire Radeon RX 590",
+                                "XFX Radeon RX 590",
+                                "AMD Radeon RX 580",
+                                "Asus Strix Radeon RX 580",
+                                "Gigabyte Radeon RX 580",
+                                "Aorus Radeon RX 580",
+                                "MSI Radeon RX 580",
+                                "Sapphire Radeon RX 580",
+                                "XFX Radeon RX 580",
+                                "AMD Radeon RX 570",
+                                "Asus Strix Radeon RX 570",
+                                "Gigabyte Radeon RX 570",
+                                "Aorus Radeon RX 570",
+                                "MSI Radeon RX 570",
+                                "Sapphire Radeon RX 570",
+                                "XFX Radeon RX 570",
+                                "AMD Radeon RX 560",
+                                "Asus Strix Radeon RX 560",
+                                "Gigabyte Radeon RX 560",
+                                "Aorus Radeon RX 560",
+                                "MSI Radeon RX 560",
+                                "Sapphire Radeon RX 560",
+                                "XFX Radeon RX 560",
+                                "AMD Radeon RX 550",
+                                "Asus Strix Radeon RX 550",
+                                "Gigabyte Radeon RX 550",
+                                "MSI Radeon RX 550",
+                                "Sapphire Radeon RX 550",
+                                "XFX Radeon RX 550",
                                 "Retour"
                             ]
                         }
                         reponse = prompt(QUESTION11).get('command')
+
+                    if reponse == "Nvidia":
+                        QUESTION12 = {
+                            "type": "list",  # Ne pas retirer
+                            "name": "command",  # Ne pas retirer
+                            "message": "Choisissez une action",  # Question
+
+                                # Choix
+                                "choices": [
+                                    "Nvidia RTX 3090",
+                                    "Aorus RTX 3090",
+                                    "Msi RTX 3090",
+                                    "Gigabyte RTX 3090",
+                                    "Colorful RTX 3090",
+                                    "EVGA RTX 3090",
+                                    "Asus RTX 3090",
+                                    "Asus Strix RTX 3090",
+
+                                    "Retour"
+                                ]
+                            }
+                        reponse = prompt(QUESTION12).get('command')
