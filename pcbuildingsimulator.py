@@ -490,4 +490,19 @@ while is_running:
                                     "Retour"
                                 ]
                             }
-                        reponse = prompt(QUESTION12).get('command')
+                    reponse = prompt(QUESTION12).get('command')
+
+                if reponse == "PSU":
+                    QUESTION13 = {
+                        "type": "list",  # Ne pas retirer
+                        "name": "command",  # Ne pas retirer
+                        "message": "Choisissez une action",  # Question
+
+                        # Choix
+                        "choices": [
+                            "ADVANCE",
+                            "Antec",
+                            "Retour"
+                        ]
+                    }
+                    reponse = prompt(QUESTION13).get('command')
