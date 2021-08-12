@@ -502,6 +502,7 @@ while is_running:
                         "choices": [
                             "ADVANCE",
                             "Antec",
+                            "Seasonic"
                             "Retour"
                         ]
                     }
