@@ -502,6 +502,10 @@ while is_running:
                         "choices": [
                             "ADVANCE",
                             "Antec",
+                            "Corsair",
+                            "Aorus",
+                            "Asus",
+                            "thermaltake",
                             "Seasonic"
                             "Retour"
                         ]
