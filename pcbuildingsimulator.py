@@ -511,3 +511,24 @@ while is_running:
                         ]
                     }
                     reponse = prompt(QUESTION13).get('command')
+
+                if reponse == "Stockage":
+                    QUESTION14 = {
+                        "type": "list",  # Ne pas retirer
+                        "name": "command",  # Ne pas retirer
+                        "message": "Choisissez une action",  # Question
+
+                        # Choix
+                        "choices": [
+                            "Adata",
+                            "Aorus",
+                            "Corsair",
+                            "Seagate",
+                            "Firecuda",
+                            "Velociraptor",
+                            "Toshiba",
+                            "HyperX",
+                            "Retour"
+                        ]
+                    }
+                    reponse = prompt(QUESTION14).get('command')
