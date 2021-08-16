@@ -528,6 +528,7 @@ while is_running:
                             "Velociraptor",
                             "Toshiba",
                             "HyperX",
+                            "Patriot",
                             "Retour"
                         ]
                     }
